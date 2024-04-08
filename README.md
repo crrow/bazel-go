@@ -20,7 +20,7 @@ bazel build //...
 
 ## Run application with bazel
 ```shell
-bazel run //cmd
+bazel run //cmd/hello
 ```
 
 # TODO
