@@ -1,0 +1,34 @@
+.vscode
+.idea
+.DS_Store
+target
+debug
+out/
+book/
+docs/node_modules/
+bazel-bazel-go
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+
+# OSX leaves these everywhere on SMB shares
+._*
+*.o
+*.so
+*.dump
+*.out
+*.bak
+*.tmp
+*.temp
+*.log
+*.swp
+__debug_bin
+
+# Bazel generated symlinks
+/_bazel
+
+# Per-user .bazelrc
+/.bazelrc.user
+
+
+.env
