@@ -1,0 +1,4 @@
+syntax = "proto3";
+package hi.api;
+option go_package = "github.crrow.bazel_go/hi/api";
+

@@ -1,4 +1,4 @@
-module github.com/crrow/bazel-go
+module github.com/crrow/bazel_go
 
 go 1.22.0
 

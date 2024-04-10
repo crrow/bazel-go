@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "hello_lib",
     srcs = ["main.go"],
-    importpath = "github.com/crrow/bazel-go/cmd/hello",
+    importpath = "github.com/crrow/bazel_go/cmd/hello",
     visibility = ["//visibility:private"],
     deps = ["@com_github_urfave_cli_v2//:cli"],
 )
